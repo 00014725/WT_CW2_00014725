@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Web Database</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Student Web Database</h1>
+        <p class="wiut"> “This web application was created to fulfill Web 
+            Technology module’s requirements and does not represent an actual company or service”
+        </p>
+
+        <p class="studentID">WIUT Student ID: 00014725</p>
+    </header>
+
+    <div class="crud">
+        <form method="post" class="form-create">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            <p class="warn-name"></p>
+                
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" >
+            <p class="warn-surname"></p>
+          
+            <label for="dob">Date of Birth:</label>
+            <input type="date"  id="dob" name="dob" >
+            <p class="warn-dob"></p>
+          
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" >
+            <p class="warn-university"></p>
+                
+            <label for="course">Course of Study:</label>
+            <input type="text" id="course" name="course" >
+            <p class="warn-course"></p>
+                    
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </div>
+
+
+
+    <div class="list">
+        <div class="search">
+            <input class="search-input">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="student-list">
+            <ul class="list-group"></ul>
+        </div>
+    </div>
+
+    <div class="modal hide">
+        <div class="modal-content">
+            <i id="close-modal" class="fa-solid fa-xmark"></i>
+            <h2>Edit Student Record</h2>
+            <form class="form-edit">
+              <label for="edit-name">Name:</label>
+              <input type="text" id="edit-name" name="name">
+              <p class="warn-edit-name"></p>
+        
+              <label for="edit-surname">Surname:</label>
+              <input type="text" id="edit-surname" name="surname">
+              <p class="warn-edit-surname"></p>
+
+        
+              <label for="edit-dob">Date of Birth:</label>
+              <input type="date" id="edit-dob" name="dob">
+              <p class="warn-edit-dob"></p>
+
+              
+        
+              <label for="edit-university">University:</label>
+              <input type="text" id="edit-university" name="university">
+              <p class="warn-edit-university"></p>
+
+        
+              <label for="edit-course">Course of Study:</label>
+              <input type="text" id="edit-course" name="course">
+              <p class="warn-edit-course"></p>
+
+        
+              <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- JS -->
+    <script src="./app.js"></script>
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/7681f02d75.js" crossorigin="anonymous"></script>
+</body>
+</html>

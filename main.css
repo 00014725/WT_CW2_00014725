@@ -1,0 +1,182 @@
+body {
+    background-color: #F0F8FF;
+    height: auto;
+    max-width: 1100px;
+}
+header {
+    text-align: center;
+}
+.wiut {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+}
+.studentID {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.crud {
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px ;
+    padding: 20px;
+    background-color: transparent;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+form label {
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+    height: 25px;
+    margin-top:5px;
+}
+
+form button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+form button:hover {
+    background-color: #00698c;
+}
+/* Edit Form */
+.form-edit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-edit label {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+/* List Section */
+.list {
+    width: 800px;
+    min-height: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px ;
+    padding: 20px;
+    background-color: #dadada;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+.search {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.search-input {
+    width: 300px;
+    height: 20px;
+}
+#search-btn {
+    padding: 0px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 25px;
+    margin-left: 10px;
+}
+.warn-name, .warn-surname, .warn-dob, .warn-university, .warn-course, .warn-edit-name, .warn-edit-surname, .warn-edit-dob, 
+.warn-edit-university, .warn-edit-course {
+    color: red;
+    font-size: small;
+}
+/* Student LIST */
+.student-list {
+    
+}
+.list-group {
+    list-style: none;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -25px;
+}
+.student-li {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    width: 700px;
+    height: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.edit {
+    /* margin-right: 5px; */
+}
+.time {
+    opacity: 0.7;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 60%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+}
+.modal-content h2 {
+    text-align: center;
+}
+.modal-content button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+}
+.show {
+    display: block;
+} 
+  
+.hide {
+    display: none;
+} 
+.fa-xmark {
+   font-size: 20px;
+   margin-left: 580px;
+}
