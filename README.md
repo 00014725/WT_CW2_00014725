@@ -11,3 +11,4 @@ CW_WT2_0014725/
 ├── package-lock.json
 └── package.json
 https://github.com/00014725/WT_CW2_00014725.git 
+Netlify: https://studentwebdatabase.netlify.app/
